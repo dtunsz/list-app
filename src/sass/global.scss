@@ -20,7 +20,15 @@ html {
   font-size: 87.5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: color.$bg-gray;
 }
 
 // If you need to style the #app element
 // :global(#app) {}
+
+ul {
+  margin: 0;
+  padding-inline-start: 0;
+}
